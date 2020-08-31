@@ -13,5 +13,5 @@ https://localhost:<port>/api/posts
 Добавить запись POST
 Изменить PUT
 Удалить DELETE
-При удалении/изменении дополнительно указывать PrimaryKey записи, например так:
+При удалении (или запросе одной конкретной записи) дополнительно указывать PrimaryKey записи, например так:
 DELETE https://localhost:<port>/api/employees/2
